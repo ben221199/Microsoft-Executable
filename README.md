@@ -1,4 +1,4 @@
-| Offset | Size | MS-DOS 1.0 (1.25)<sup>[1]</sup><br><sub>and MS-DOS 2.0<sup>[2] [3]</sup></sub> | MS-DOS 2.0<sup>[4] [5]</sup><br><sub>and MS-DOS 3.0 (3.3)</sub> | Description |
+| Offset | Size | MS-DOS 1.0 (1.25)<sup>[1]</sup><br><sub>and MS-DOS 2.0<sup>[2] [3]</sup></sub> | MS-DOS 2.0<sup>[4] [5]</sup><br><sub>and MS-DOS 3.0 (3.3)<sup>[6]</sup></sub> | Description |
 | - | - | - | - | - |
 | 0x00 | 2 bytes (Word) | `RELPT` | `exe_signature` | Signature |
 | 0x02 | 2 bytes (Word) | `RELSEG` | `exe_len_mod_512` | Length of last page |
@@ -22,3 +22,4 @@
 
 [4]: https://github.com/microsoft/MS-DOS/blob/master/v2.0/source/DOSSYM.ASM
 [5]: https://github.com/microsoft/MS-DOS/blob/master/v2.0/source/DOSSYM_v211.ASM
+[6]: https://github.com/AR1972/DOS3.3/blob/master/SRC/DOS/EXE.INC
